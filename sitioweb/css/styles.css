@@ -1,0 +1,374 @@
+
+/* Estilos generales de la barra de navegación */
+.navbar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  padding: 10px 0; /* Espaciado interno de la barra de navegación */
+}
+
+/* Tema oscuro para la barra de navegación */
+.navbar-dark {
+  background-color: #333; /* Color de fondo oscuro */
+  color: #fff; /* Color del texto */
+}
+
+/* Estilo cuando la barra de navegación se contrae */
+.navbar-shrink {
+  padding: 5px 0; /* Reducir el espacio interno cuando la barra se contrae */
+  background-color: #222; /* Color de fondo ajustado cuando se contrae */
+}
+
+/* Fijar la barra de navegación en la parte superior */
+.fixed-top {
+  position: fixed; /* Fijar la posición */
+  top: 0; /* Fijar en la parte superior */
+  width: 100%; /* Ancho completo */
+  z-index: 1000; /* Z-index alto para asegurarse de que esté por encima de otros elementos */
+}
+
+/* Estilo para el botón de alternancia en dispositivos móviles */
+.navbar-toggler {
+  color: #fff; /* Color del icono */
+  border-color: #fff; /* Color del borde */
+}
+
+/* Estilo para los enlaces en la barra de navegación */
+.navbar-nav .nav-link {
+  color: #fff; /* Color del texto del enlace */
+}
+
+/* Estilo para los enlaces en la barra de navegación cuando se pasa el mouse sobre ellos */
+.navbar-nav .nav-link:hover {
+  color: #aaa; /* Color del texto al pasar el mouse */
+}
+
+
+
+
+/* Estilo de la barra de navegación cuando se hace clic en un enlace */
+.navbar-shrink {
+  display: none; /* Oculta la barra de navegación */
+}
+
+/* Estilo de la barra de navegación en pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-collapse {
+      background-color: rgb(1, 2, 56); /* Color de fondo */
+      color: yellow; /* Color del texto */
+      border: 2px solid rgb(1, 2, 56); /* Contorno negro */
+  }
+}
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  transition: padding-top 0.3s, padding-bottom 0.3s; /* Transición suave para el cambio de tamaño */
+}
+
+.navbar-shrink {
+  padding-top: 10px !important; /* Ajusta el relleno superior de la barra de navegación cuando se reduce */
+  padding-bottom: 10px !important; /* Ajusta el relleno inferior de la barra de navegación cuando se reduce */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; /* Color de los enlaces en la barra de navegación */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Color de los enlaces al pasar el mouse sobre ellos */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar .nav-link {
+  cursor: pointer; /* Cambia el cursor a mano al pasar sobre los enlaces */
+}
+
+
+#mainNav {
+  padding-top: 1rem; /* Agrega espacio en la parte superior del elemento */
+  padding-bottom: 1rem; /* Agrega espacio en la parte inferior del elemento */
+  background-color: #030150; /* Establece el color de fondo del elemento */
+  height: 100px;/* establece la altura de la barra de navegacion*/
+}
+
+.fixed-top {
+  position: fixed; /* Fija la posición del elemento en la ventana del navegador */
+  top: 0; /* Establece la distancia desde la parte superior de la ventana */
+  right: 0; /* Establece la distancia desde el lado derecho de la ventana */
+  left: 0; /* Establece la distancia desde el lado izquierdo de la ventana */
+  z-index: 1030; /* Establece el índice de apilamiento del elemento */
+}
+
+
+
+
+
+
+
+/*estilo ,seccion NOSOTROS*/
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.timeline-image {
+  margin-bottom: 2rem;
+}
+
+.timeline-image img {
+  border-radius: 50%;
+}
+
+.timeline-panel {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+.timeline-inverted .timeline-panel {
+  float: right;
+}
+
+.timeline-heading h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.timeline-body p {
+  margin-bottom: 0;
+}
+
+/* Estilos de la sección Servicios */
+.service-item {
+  margin-bottom: 50px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 50px; /* Ajusta este valor según el espacio que desees dejar */
+}
+
+.section-heading {
+  font-size: 56px; /* Tamaño de fuente para el título "nosotros" */
+}
+
+.section-subheading {
+  font-size: 30px; /* Tamaño de fuente para el subtítulo "Conocenos un poco mas" */
+}
+
+.section-heading {
+  margin-bottom: 10px; /* Ajusta el margen inferior del título "nosotros" */
+}
+
+.section-subheading {
+  margin-top: 0; /* Elimina el margen superior del subtítulo "Conocenos un poco mas" */
+}
+
+/*LOGO*/
+
+/* Estilos generales del encabezado */
+
+
+
+header {
+  position: relative; /* Establece el contexto de posicionamiento */
+  height: 100vh; /* Hace que el encabezado ocupe el 100% de la altura de la pantalla */
+}
+
+header img {
+  position: absolute; /* Establece el posicionamiento absoluto para el logo */
+  top: 0; /* Coloca el logo en la parte superior del encabezado */
+  left: 0; /* Coloca el logo en el lado izquierdo del encabezado */
+  width: 150px; /* Establece el ancho del logo  del encabezado */
+  height: auto; /* Esto mantiene la proporción original del logo */
+}
+
+header.masthead {
+  padding-top: 10.5rem; /* Espacio de relleno en la parte superior del encabezado */
+  padding-bottom: 16rem; /* Espacio de relleno en la parte inferior del encabezado */
+  text-align: center; /* Alineación del texto al centro */
+  color: #fff; /* Color del texto */
+  background-image: url("../assets/img/header-bg.jpg"); /* Imagen de fondo del encabezado */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-attachment: scroll; /* Fondo de pantalla se desplaza junto con el contenido */
+  background-position: center center; /* Posición de la imagen de fondo en el centro */
+  background-size: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir completamente el área */
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem; /* Espacio de relleno en la parte superior del encabezado para dispositivos de pantalla más grandes */
+    padding-bottom: 12.5rem; /* Espacio de relleno en la parte inferior del encabezado para dispositivos de pantalla más grandes */
+  }
+
+}
+
+/*SERVICIOS*/
+
+/* Estilo para la sección de servicios */
+#servicios {
+  font-family: 'Arial', sans-serif; /* Cambia la tipografía */
+  text-align: center; /* Centra el texto */
+}
+
+#servicios .section-heading {
+  font-size: 2.5rem; /* Tamaño del título principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#servicios .section-subheading {
+  font-size: 1.2rem; /* Tamaño del subtítulo */
+  margin-bottom: 3rem; /* Espaciado inferior */
+  color: #6c757d; /* Color del subtítulo */
+}
+
+/* Diseño de tres columnas y tres filas */
+#servicios .row {
+  display: flex; /* Usa flexbox para el diseño */
+  flex-wrap: wrap; /* Permite el ajuste en varias filas */
+  justify-content: center; /* Centra los ítems horizontalmente */
+}
+
+#servicios .col-md-4 {
+  flex: 0 0 30%; /* Cada columna ocupa 30% del contenedor */
+  max-width: 30%; /* Máximo ancho de 30% */
+  margin-bottom: 2rem; /* Espaciado inferior */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+}
+
+/* Estilo para los iconos de los servicios */
+#servicios .fa-stack {
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#servicios h4 {
+  font-size: 1.5rem; /* Tamaño del título del servicio */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#servicios p {
+  font-size: 1rem; /* Tamaño del texto */
+  color: hsl(0, 0%, 0%); /* Color del texto */
+  margin: 0 1rem; /* Márgenes laterales */
+}
+
+/*colores distinta secciones*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0c0361; /* color a la barra */
+}
+
+.navbar .nav-link { /* color a los enlaces de la barra*/
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  background-color: #0c0361; /* color a la barra */
+}
+
+.masthead {
+  /* Deja el fondo del encabezado vacío o como está, ya que mencionaste que tienes una imagen */
+  padding: 100px 0;
+  text-align: center;
+  background-image: url('assets/img/header-bg.jpg'); /* Asegúrate de usar tu propia ruta a la imagen */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#nosotros {
+  background-color: #9aa8f5; /* color al fondo */
+  padding: 60px 0;
+}
+
+#servicios {
+  background-color: #657af1; /* color al fondo */
+  padding: 60px 0;
+}
+
+#clientes {
+  background-color: #92a0f0; /* color al fondo */
+  padding: 60px 0;
+}
+
+#contacto {
+  background-color:#b3bdf5 ; /* color al fondo */
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+
+
+#clientes .row {
+  display: flex; /* Usar flexbox para organizar en fila */
+  flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en filas */
+  justify-content: center; /* Centrar las imágenes horizontalmente */
+}
+#clientes .row {
+  display: grid; /* Utilizar display grid para organizar en columnas */
+  grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de igual tamaño */
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+#clientes .col-lg-4 {
+  max-width: calc(33.33% - 20px); /* Ancho máximo de cada columna */
+  margin-bottom: 20px; /* Espacio inferior entre las imágenes */
+}
+
+.clientes-item {
+  text-align: center; /* Centrar el contenido dentro de cada columna */
+}
+#clientes .col-lg-4 {
+  display: flex; /* Usar flexbox para centrar el contenido */
+  justify-content: center; /* Centrar el contenido horizontalmente */
+  align-items: center; /* Centrar el contenido verticalmente */
+  flex-direction: column; /* Alinear el contenido en columna */
+  margin-bottom: 30px; /* Espacio inferior entre las columnas */
+}
+
+
+
+/* General styles for the Clientes section */
+.clientes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: auto; /* Rows will adjust automatically */
+  gap: 20px; /* Space between items */
+  margin-top: 20px; /* Space above the grid */
+}
+
+/* Style adjustments for the clientes items */
+.clientes-item {
+  text-align: center;
+}
+
+.clientes-caption-heading {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold;
+}
+
+.clientes-caption-subheading {
+  font-size: 1rem; /* Adjust font size */
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .clientes-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
