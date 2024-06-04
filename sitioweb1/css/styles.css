@@ -274,77 +274,73 @@ footer p {
 /*SERVICIOS*/
 
 /* Estilo para la sección de servicios */
-#servicios {
+/*#servicios {
   font-family: 'Arial', sans-serif; /* Cambia la tipografía */
-  text-align: center; /* Centra el texto */
-}
+/*  text-align: center; /* Centra el texto */
+/*}
 
 #servicios .section-heading {
   font-size: 2.5rem; /* Tamaño del título principal */
-  margin-bottom: 1rem; /* Espaciado inferior */
-}
+/*  margin-bottom: 1rem; /* Espaciado inferior */
+/*}
 
 #servicios .section-subheading {
   font-size: 1.2rem; /* Tamaño del subtítulo */
-  margin-bottom: 3rem; /* Espaciado inferior */
-  color: #6c757d; /* Color del subtítulo */
-}
+/*  margin-bottom: 3rem; /* Espaciado inferior */
+/*  color: #6c757d; /* Color del subtítulo */
+/*}
 
 /* Diseño de tres columnas y tres filas */
-#servicios .row {
+/*#servicios .row {
   display: flex; /* Usa flexbox para el diseño */
-  flex-wrap: wrap; /* Permite el ajuste en varias filas */
-  justify-content: center; /* Centra los ítems horizontalmente */
-}
+/*  flex-wrap: wrap; /* Permite el ajuste en varias filas */
+/*  justify-content: center; /* Centra los ítems horizontalmente */
+/*}
 
 #servicios .col-md-4 {
   flex: 0 0 30%; /* Cada columna ocupa 30% del contenedor */
- max-width: 30%; /* Máximo ancho de 30% */
-  margin-bottom: 2rem; /* Espaciado inferior */
- box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
-}
+ /*max-width: 30%; /* Máximo ancho de 30% */
+ /* margin-bottom: 2rem; /* Espaciado inferior */
+ /*box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+/*}
 
  /*Estilo para los iconos de los servicios */
-#servicios .fa-stack {
+/*#servicios .fa-stack {
   margin-bottom: 1rem; /* Espaciado inferior */
-}
+/*}
 
 #servicios h4 {
   font-size: 1rem; /* Tamaño del título del servicio */
-  margin-bottom: 1,5rem; /* Espaciado inferior */
-}
+ /* margin-bottom: 1,5rem; /* Espaciado inferior */
+/*}*/
 
-#servicios p {
-  font-size: 1rem; /* Tamaño del texto */
-  color: hsl(0, 0%, 0%); /* Color del texto */
-  margin: 0 1rem; /* Márgenes laterales */
-  text-align: justify;
-}
+
 
 /* Estilo para la sección de servicios */
-#servicios .service-item {
+/*#servicios .service-item {
   position: relative;
   overflow: hidden;
 }
-#servicios h4 {
+*/
+/*#servicios h2 {
   font-size: 1rem; /* Tamaño del título del servicio */
-  margin-bottom: 1,5rem; /* Espaciado inferior */
-}
+ /* margin-bottom: 1,5rem; /* Espaciado inferior */
+/*}
 
-#servicios p {
+/*#servicios p {
   font-size: 1rem; /* Tamaño del texto */
-  color: hsl(0, 0%, 0%); /* Color del texto */
-  margin: 0 1rem; /* Márgenes laterales */
-  text-align: justify;
+ /* color: hsl(0, 0%, 0%); /* Color del texto */
+ /* margin: 0 1rem; /* Márgenes laterales */
+ /* text-align: justify;
 }
 
 /* Estilo para la sección de servicios */
-#servicios .service-item {
+/*#servicios .service-item {
   position: relative;
   overflow: hidden;
-}
+}*/
 
-#servicios .service-background {
+/*#servicios .service-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -353,28 +349,28 @@ footer p {
   object-fit: cover;
   opacity: 0.5; /* Ajusta la opacidad de la imagen */
   
-}
+/*}
 
-#servicios .service-content {
+/*#servicios .service-content {
   position: relative;
   z-index: 1; /* Coloca el contenido sobre la imagen */
-  padding: 0px; /* Espaciado interno */
-  color: #fff; /* Color del texto */
-  text-align: center; /* Centra el texto */
-}
+/*  padding: 0px; /* Espaciado interno */
+ /* color: #fff; /* Color del texto */
+/*  text-align: center; /* Centra el texto */
+/*}-*/
 
 
 
-#servicios .service-item:before {
+/*#servicios .service-item:before {
   content: ''; /* Contenido vacío */
-  position: absolute; /* Posición absoluta con respecto al elemento padre */
-  top: 0;
+ /* position: absolute; /* Posición absoluta con respecto al elemento padre */
+ /* top: 0;
   left: 0;
   width: 100%; /* Ancho completo */
-  height: 100%; /* Altura completa */
-  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
-  z-index: -1; /* Coloca el fondo encima del contenido */
-}
+ /* height: 100%; /* Altura completa */
+/*  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+ /* z-index: -1; /* Coloca el fondo encima del contenido */
+/*}
 /*colores distinta TODAS LAS SECCIONES*/
 
 body {
@@ -384,22 +380,22 @@ body {
 }
 
 #nosotros {
-  background-color: #9aa8f5; /* color al fondo */
+  background-color: #ffffff; /* color al fondo */
   padding: 60px 0;
 }
 
 #servicios {
-  background-color: #657af1; /* color al fondo */
+  background-color: #95a6f5; /* color al fondo */
   padding: 60px 0;
 }
 
 #clientes {
-  background-color: #92a0f0; /* color al fondo */
+  background-color: #ffffff; /* color al fondo */
   padding: 60px 0;
 }
 
 #contacto {
-  background-color:#b3bdf5 ; /* color al fondo */
+  background-color:#8697f7 ; /* color al fondo */
   padding: 60px 0;
 }
 
@@ -498,4 +494,140 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+
+
+
+/*SERVICIOS
+/*ACORDEON*/
+
+/*
+.acordeon{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  border: 2px solid black;
+  --title-size: 20px;
+  --title-padding: 10px;
+}
+
+.acordeon > li{
+  --item-height: calc( var(--title-size) + (var(--title-padding) * 2) );
+  border: 1px solid orange;
+  height: var(--item-height);
+  overflow: hidden;
+  transition: height .25s;
+  display: flex;
+  flex-direction: column;
+}
+
+.acordeon > li div{
+  flex: 1;
+  overflow-y: auto;
+}
+
+.acordeon > li.open{
+  height: calc( 100% - ( (var(--item-height) + 2px) * var(--items-qtty, 1) ) );
+}
+
+.acordeon > li:not(:last-child){
+  border-bottom-color: white;
+}
+
+.acordeon > li > h3{
+  margin: 0;
+  background: #FC7301 url(./flecha.svg) calc(100% - 20px) center/auto var(--title-size) no-repeat;
+  color: white;
+  font-size: var(--title-size);
+  line-height: var(--title-size);
+  padding: var(--title-padding);
+}
+
+.acordeon > li.open > h3{
+  background-color: orange;
+  background-image: url(./flecha-2.svg);
+}
+
+.acordeon > li > div{
+  padding: 2em;
+}
+
+#servicios p {
+  font-size: 1rem; /* Tamaño del texto */
+ /* color: hsl(0, 0%, 0%); /* Color del texto */
+ /* margin: 0 1rem; /* Márgenes laterales */
+ /* text-align: justify;
+}*/
+
+
+
+/* SERVICIOS */
+/* ACORDEON */
+
+.acordeon {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: 2px solid black;
+  --title-size: 20px;
+  --title-padding: 10px;
+}
+
+.acordeon > li {
+  --item-height: calc(var(--title-size) + (var(--title-padding) * 2));
+  border: 1px solid orange;
+  height: var(--item-height);
+  overflow: hidden;
+  transition: height 0.25s;
+  display: flex;
+  flex-direction: column;
+}
+
+.acordeon > li div {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+  padding: 2em;
+  background-color: #f8f9fa;
+}
+
+.acordeon > li.open {
+  height: calc(100% - ((var(--item-height) + 2px) * var(--items-qtty, 1)));
+}
+
+.acordeon > li:not(:last-child) {
+  border-bottom-color: white;
+}
+
+.acordeon > li > h3 {
+  margin: 0;
+  background: #FC7301 url(./flecha.svg) calc(100% - 20px) center/auto var(--title-size) no-repeat;
+  color: white;
+  font-size: var(--title-size);
+  line-height: var(--title-size);
+  padding: var(--title-padding);
+}
+
+.acordeon > li.open > h3 {
+  background-color: orange;
+  background-image: url(./flecha-2.svg);
+}
+
+.acordeon img {
+  max-width: 25%; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.acordeon p {
+  font-size: 1rem; /* Tamaño del texto */
+  color: hsl(0, 0%, 0%); /* Color del texto */
+  margin: 0 1rem; /* Márgenes laterales */
+  text-align: justify;
+  flex: 1; /* Hace que el texto ocupe el espacio restante */
 }
