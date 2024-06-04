@@ -1,0 +1,501 @@
+
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+  margin: 0; /* Sin margen exterior */
+  padding: 0; /* Sin relleno */
+}
+
+/*BARRA*/
+
+/* Estilos de la marca del sitio en la barra de navegación */
+.navbar-brand {
+  display: flex; /* Usa flexbox para alinear elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  color: rgb(241, 245, 4); /* Color del texto */
+  text-decoration: none; /* Sin decoración de enlace */
+  font-size: 1.5em; /* Tamaño del texto */
+  padding-left: 10px; /*relleno izquierdo*/
+}
+
+  .brand-name {
+  font-family: 'Bodoni MT Black', sans-serif; /* Cambia la fuente a Arial */
+  font-size: 24px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  color: #fea305; /* Color del texto */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+/* Estilos del logo en la marca del sitio */
+.navbar-brand .logo {
+  width: 40px; /* Ancho del logo */
+  height: 40px; /* Altura del logo */
+  margin-right: 10px; /* Margen derecho */
+}
+
+/* Estilos del botón de alternancia */
+.navbar-toggler {
+  display: none; /* Inicialmente oculto */
+}
+
+/* Estilos de la lista de navegación */
+.navbar-nav {
+  list-style-type: none; /* Sin viñetas */
+  margin: 0; /* Sin margen */
+  padding: 0; /* Sin relleno */
+  display: flex; /* Usa flexbox para alinear elementos */
+  justify-content: flex-end; /* Alinea los elementos al final */
+}
+
+/* Estilos de los elementos de la lista de navegación */
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Margen horizontal */
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  background-color: #07012d; /* Color de fondo oscuro */
+  position: fixed; /* Fija la barra de navegación */
+  width: 100%; /* Ancho completo */
+  height: 70px; /* Altura de la barra */
+  top: 0; /* Posición superior */
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  transition: transform 0.3s ease; /* Transición suave para mostrar/ocultar */
+  padding: 10px 0; /* Relleno superior e inferior */
+}
+
+/* Estilos de los enlaces de la lista de navegación */
+.navbar-nav .nav-link {
+  color: #fea305; /* Color del texto */
+  text-decoration: none; /* Sin decoración de enlace */
+  padding: 10px 15px; /* Relleno superior e inferior */
+  display: block; /* Mostrar como bloque */
+}
+
+/* Estilos de los enlaces de la lista de navegación al pasar el ratón por encima */
+.navbar-nav .nav-link:hover {
+  background-color: #495057; /* Cambio de color de fondo */
+}
+
+
+
+ /*Estilo para ocultar la barra de navegación */
+.navbar-hidden {
+  transform: translateY(-100%); /* Desliza la barra hacia arriba */
+}
+
+/*FOOTER*/
+/* Estilos generales para el footer */
+footer {
+  background-color: #030452; /* Color de fondo gris */
+  color: #fff; /* Texto en color blanco */
+  width: 100%; /* Ocupar ancho completo de la pantalla */
+  padding: 10px 0;
+  font-family: Harlow Solid Italic;
+}
+
+/* Estilos para el contenedor del footer */
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Estilos para las columnas del footer */
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .col {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Alinear el contenido del footer */
+footer .col-left {
+  text-align: left;
+}
+
+footer .col-right {
+  text-align: right;
+}
+
+/* Estilos para el texto */
+footer p {
+  color: #fff; /* Texto en color blanco */
+  font-size: 14px; /* Tamaño de fuente pequeño */
+}
+
+/* Asegurar que el contenido se vea bien en pantallas más pequeñas */
+@media (max-width: 576px) {
+  footer .row {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  footer .col {
+      padding: 10px 0;
+  }
+}
+
+
+/* Estilo para la sección NOSOTROS */
+
+
+
+.timeline {
+  list-style: none; /* Quitar los puntos de la lista */
+  padding-left: 0; /* Eliminar el padding izquierdo */
+}
+
+.timeline-image {
+  margin-bottom: 2rem; /* Espacio inferior de 1rem */
+  display: inline-block; /* Mostrar como elemento en línea con bloqueo */
+  vertical-align: top; /* Alinear verticalmente en la parte superior */
+  width: 30%; /* Ancho del 30% del contenedor */
+}
+
+.timeline-image img {
+  border-radius: 50%; /* Bordes redondeados en forma de círculo */
+  width: 50%; /* Ancho del 50% del contenedor padre */
+}
+
+.timeline-panel {
+  display: inline-block; /* Mostrar como elemento en línea con bloqueo */
+  vertical-align: top; /* Alinear verticalmente en la parte superior */
+  width: 65%; /* Ancho del 65% del contenedor */
+  padding: 20px; /* Espaciado interno de 20px */
+}
+
+/* Encabezados dentro de .timeline-heading */
+.timeline-heading h4 {
+  margin-top: 20; /* Eliminar el margen superior */
+  margin-bottom: 25px;
+  color: #fd0606; /* Color del texto */
+  font-family:Britannic Bold ; /* Fuente del texto */
+  font-size: 24px; /* Tamaño de la fuente */
+  letter-spacing: 1px; /* Espacio entre letras */
+
+}
+
+/* Subtítulos dentro de .timeline-heading */
+.timeline-heading .subheading {
+  margin-top: 10px;
+  color: #ffffff; /* Color del texto */
+  font-family: 'Arial', sans-serif; /* Fuente del texto */
+  font-size: 18px; /* Tamaño de la fuente */
+  letter-spacing: 0.5px; /* Espacio entre letras */
+}
+
+/* Cuerpo de texto dentro de .timeline-body */
+.timeline-body p {
+  margin-bottom: 0; /* Eliminar el margen inferior */
+  margin-top: 0; /* Eliminar el margen superior */
+  color: #000000; /* Color del texto */
+  font-family:Constantia ; /* Fuente del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  letter-spacing: 0.5px; /* Espacio entre letras */
+  line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .timeline-image,
+  .timeline-panel {
+    width: 50%; /* Cambiar el ancho a 50% en dispositivos pequeños */
+    float: none; /* Cancelar flotación en dispositivos pequeños */
+  }
+}
+
+/* Redondeo adicional para imágenes */
+.timeline-image img {
+  border-radius: 70%; /* Bordes redondeados del 70% */
+}
+
+/*encabezado seccion nosotros*/
+
+/* Encabezados de todas las  la secciónes */
+.text-center h2.section-heading {
+  margin-top: 25px; /* Eliminar el margen superior */
+  margin-bottom: 20px; /* Ajustar el margen inferior para controlar el espacio */
+  color: #fd0606; /* Color del texto para "NOSOTROS" */
+  font-family: Britannic Bold; /* Fuente del texto */
+  font-size: 36px; /* Tamaño de la fuente */
+  letter-spacing: 1px; /* Espacio entre letras */
+}
+
+/* Subtítulo de la sección */
+.text-center h3.section-subheading {
+  margin-top: 5px; /* Ajustar el margen superior para controlar el espacio */
+  color: #fff; /* Color del texto para "Conócenos un poco más" */
+  font-family: 'Arial', sans-serif; /* Fuente del texto */
+  font-size: 18px; /* Tamaño de la fuente */
+  letter-spacing: 0.5px; /* Espacio entre letras */
+}
+
+/*LOGO*/
+
+/* Estilos generales del encabezado */
+
+/* Ajustes generales para el header */
+.masthead {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Asegura que ocupe la altura completa de la ventana */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/img/header.jpg")no-repeat center fixed; /* imagen del fondo del encabezado */
+  background-size: cover;/*ajusta el tamaño de la imagen de fondo para cubrir completamente el area*/
+  background-position: center top;
+  color:#ffffff ; 
+  overflow: hidden;/* Oculta cualquier desbordamiento */ 
+  text-align: center;/* alineamiento del texto al centro*/
+}
+
+/* Ajustes para el contenedor dentro del header */
+.masthead .container {
+  position: relative;
+  z-index: 2; /* Asegura que el contenido esté por encima de la imagen de fondo */
+  
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    padding-top: 17rem; /* Espacio de relleno en la parte superior del encabezado para dispositivos de pantalla más grandes */
+    padding-bottom: 12.5rem; /* Espacio de relleno en la parte inferior del encabezado para dispositivos de pantalla más grandes */
+  }
+
+}
+
+
+/*SERVICIOS*/
+
+/* Estilo para la sección de servicios */
+#servicios {
+  font-family: 'Arial', sans-serif; /* Cambia la tipografía */
+  text-align: center; /* Centra el texto */
+}
+
+#servicios .section-heading {
+  font-size: 2.5rem; /* Tamaño del título principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#servicios .section-subheading {
+  font-size: 1.2rem; /* Tamaño del subtítulo */
+  margin-bottom: 3rem; /* Espaciado inferior */
+  color: #6c757d; /* Color del subtítulo */
+}
+
+/* Diseño de tres columnas y tres filas */
+#servicios .row {
+  display: flex; /* Usa flexbox para el diseño */
+  flex-wrap: wrap; /* Permite el ajuste en varias filas */
+  justify-content: center; /* Centra los ítems horizontalmente */
+}
+
+#servicios .col-md-4 {
+  flex: 0 0 30%; /* Cada columna ocupa 30% del contenedor */
+ max-width: 30%; /* Máximo ancho de 30% */
+  margin-bottom: 2rem; /* Espaciado inferior */
+ box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+}
+
+ /*Estilo para los iconos de los servicios */
+#servicios .fa-stack {
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#servicios h4 {
+  font-size: 1rem; /* Tamaño del título del servicio */
+  margin-bottom: 1,5rem; /* Espaciado inferior */
+}
+
+#servicios p {
+  font-size: 1rem; /* Tamaño del texto */
+  color: hsl(0, 0%, 0%); /* Color del texto */
+  margin: 0 1rem; /* Márgenes laterales */
+  text-align: justify;
+}
+
+/* Estilo para la sección de servicios */
+#servicios .service-item {
+  position: relative;
+  overflow: hidden;
+}
+#servicios h4 {
+  font-size: 1rem; /* Tamaño del título del servicio */
+  margin-bottom: 1,5rem; /* Espaciado inferior */
+}
+
+#servicios p {
+  font-size: 1rem; /* Tamaño del texto */
+  color: hsl(0, 0%, 0%); /* Color del texto */
+  margin: 0 1rem; /* Márgenes laterales */
+  text-align: justify;
+}
+
+/* Estilo para la sección de servicios */
+#servicios .service-item {
+  position: relative;
+  overflow: hidden;
+}
+
+#servicios .service-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5; /* Ajusta la opacidad de la imagen */
+  
+}
+
+#servicios .service-content {
+  position: relative;
+  z-index: 1; /* Coloca el contenido sobre la imagen */
+  padding: 0px; /* Espaciado interno */
+  color: #fff; /* Color del texto */
+  text-align: center; /* Centra el texto */
+}
+
+
+
+#servicios .service-item:before {
+  content: ''; /* Contenido vacío */
+  position: absolute; /* Posición absoluta con respecto al elemento padre */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+  z-index: -1; /* Coloca el fondo encima del contenido */
+}
+/*colores distinta TODAS LAS SECCIONES*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#nosotros {
+  background-color: #9aa8f5; /* color al fondo */
+  padding: 60px 0;
+}
+
+#servicios {
+  background-color: #657af1; /* color al fondo */
+  padding: 60px 0;
+}
+
+#clientes {
+  background-color: #92a0f0; /* color al fondo */
+  padding: 60px 0;
+}
+
+#contacto {
+  background-color:#b3bdf5 ; /* color al fondo */
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Estilos generales para la sección CLIENTES */
+.page-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #f8f9fa; /*  definir un color de fondo */
+  width: 100%;
+  margin: 0;
+}
+
+/* Estilos para los encabezados de la sección */
+.page-section h2 {
+  margin-bottom: 30px;
+}
+
+.page-section h3 {
+  margin-bottom: 40px;
+  color: #6c757d;
+}
+
+/* Contenedor para centrar el contenido */
+.container {
+  max-width: 1200px10;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Estilos para la cuadrícula */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Columnas responsivas */
+.col-lg-4, .col-sm-6 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  .col-lg-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+/* Estilos para los elementos de los clientes */
+.clientes-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center; /* Asegura que las leyendas estén centradas */
+}
+
+.clientes-item img {
+  width: 50%; /* Hacer las imágenes más pequeñas */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.clientes-caption {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.clientes-caption-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color:#000000 ; /* Texto en blanco para los títulos */
+  font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+  font-size: 18px; /* Tamaño de la fuente */
+  letter-spacing: 0.5px; /* Espacio entre letras */
+}
+
+/* Asegura que las imágenes sean fluidas y centradas */
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
